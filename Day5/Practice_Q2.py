@@ -28,11 +28,11 @@ def solve():
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
             
-        # 1. First 10 lines
+        # 1. First 10 lines     
         lines = content.splitlines()
         print("First 10 lines from the file:")
         for line in lines[:10]:
-            print(line)
+            print(line) 
         print()
         
         # 2. First 20 tokens
